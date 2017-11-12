@@ -16,6 +16,7 @@ def choose_action(action):
     return text
 
 
+
 def hello():
     """
     Says "Hello World" to the user
@@ -52,3 +53,40 @@ def get_date():
 
     text = "The date is %d-%d-%d" % (month, day, year)
     return text
+
+def choose_action(action):
+    text = "Looking for action..."
+
+    if action == "hello":
+        text = hello()
+    elif action == "heroku password":
+        text = get_herokupassword()
+    elif action == "github password":
+        text = get_githubpassword()
+    elif action == "dialogflow password":
+        text = get_dialogflowpassword():
+    else:
+        text = "No action matched!"
+
+    return text
+
+def get_herokupassword():
+    """
+    Tells the user their heroku password
+    """
+    password = "justeatfood"
+    return password
+    
+def get_githubpassword():
+    """
+    Tells the user their github password
+    """
+    password = "foodislove"
+    return password
+def get_dialogflowpassword():
+    """
+    Tells the user their dialog flow password
+    """
+    password = "ilovefood"
+    return password
+    
