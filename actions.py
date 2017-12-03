@@ -67,6 +67,7 @@ def get_herokupassword():
     """
     Tells the user their heroku password
     """
+    print('herokupassword action')
     password = "justeatfood"
     return password
     
@@ -74,12 +75,14 @@ def get_githubpassword():
     """
     Tells the user their github password
     """
+    print('githubpassword action')
     password = "foodislove"
     return password
 def get_dialogflowpassword():
     """
     Tells the user their dialog flow password
     """
+    print('dialogflowpassword action')
     password = "ilovefood"
     return password
 def get_name():
