@@ -89,6 +89,7 @@ def get_name():
     """
     Tells the user their name
     """
+    print('name action')
     name = Jay
     return name
     
