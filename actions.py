@@ -16,6 +16,8 @@ def choose_action(action):
         text = get_githubpassword()
     elif action == "dialogflow password":
         text = get_dialogflowpassword()
+    elif action == "name"
+        text = get_name()
     else:
         text = "No action matched!"
 
@@ -80,4 +82,10 @@ def get_dialogflowpassword():
     """
     password = "ilovefood"
     return password
+def get_name():
+    """
+    Tells the user their name
+    """
+    name = Jay
+    return name
     
