@@ -10,11 +10,11 @@ def choose_action(action):
         text = get_time()
     elif action == "date":
         text = get_date()
-    elif action == "heroku password":
+    elif action == "herokupassword":
         text = get_herokupassword()
-    elif action == "github password":
+    elif action == "githubpassword":
         text = get_githubpassword()
-    elif action == "dialogflow password":
+    elif action == "dialogflowpassword":
         text = get_dialogflowpassword()
     elif action == "name"
         text = get_name()
